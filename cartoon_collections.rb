@@ -13,12 +13,12 @@ end
 
 def long_planeteer_calls(calls_array)
   new_array = calls_array.collect do |call|
-  if call.size > 4
-    true 
-  else 
-    false
+    if call.size > 4
+      true 
+    else 
+      false
+    end
   end
-end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
